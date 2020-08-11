@@ -4,6 +4,7 @@ public class Person {
     private String name;
     private String email;
     private String phone;
+    private Gender gender = Gender.Male;
 
     // constructor:
     // 1. name is same as classname
@@ -15,7 +16,7 @@ public class Person {
     // 7. adding a no-arg constructor is always considered as a good practice.
     // 8. more than one constructor (overloaded) may exist, but only one will be called.
     // 9. the only use of a constructor is to initialize member data during object creation
-    public Person(){
+    public Person() {
     }
 
     public Person(String name) {
@@ -57,15 +58,32 @@ public class Person {
         this.phone = phone;
     }
 
+    public Gender getGender() {
+        return gender;
+    }
+
+    public void setGender(Gender gender) {
+        this.gender = gender;
+    }
+
     // provides a textual representation of an object.
     // there is such function available already because of inheritance from Object.java
     // re-writing an inherited method is called as OVERRIDING
+
+    public void print() {
+        System.out.println("Name  = " + (gender == Gender.Female ? "Ms." : "Mr.") + name);
+        System.out.println("Email = " + email);
+        System.out.println("Phone = " + phone);
+        System.out.println("----------------------------------");
+    }
+
     @Override
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", phone='" + phone + '\'' +
+                ", gender='" + gender + '\'' +
                 '}';
     }
 }
