@@ -10,6 +10,14 @@ public class Product {
     // behavior - functionality exhibited by an object of this class
     // member methods/functions
 
+    // inside any non-static member function, you can use a builtin variable (keyword) called 'this'
+    // to refer to any other member variables/methods.
+    // For example, inside setId, this.id correspond to the member and 'id' correspond to the parameter.
+
+    // Inside the method setId, when invoked by p1, this==p1 and likewise,
+    // if setId(..) invoked by p2, then at that moment, this==p2 inside the setId function
+
+
     // accessors / getters / readable property
     public int getId() {
         return id;
@@ -48,6 +56,8 @@ public class Product {
         this.price = price;
     }
 
+    // if you invoke this print() function using p1, then inside print(),
+    // id, name, price correspond to p1.id, p1.name and p1.price respectively
     public void print() {
         System.out.println("ID     : " + id);
         System.out.println("Name   : " + name);
