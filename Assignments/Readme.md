@@ -250,7 +250,7 @@ Call the function in main, multiple times by supplying multiple values and verif
 
 Create classes `Circle` and `Cylinder` as shown in the *UML* diagram below:
 
-<img src="http://www.ntu.edu.sg/home/ehchua/programming/java/images/ExerciseOOP_CircleCylinder.png" alt="Circle and Cylinder">
+<img src="./images/ExerciseOOP_CircleCylinder.png" alt="Circle and Cylinder">
 
 
 In the `main()` function of a Program class, create an array of `Circle` references with the initialization shown below:
