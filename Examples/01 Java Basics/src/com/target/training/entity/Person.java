@@ -71,10 +71,9 @@ public class Person {
     // re-writing an inherited method is called as OVERRIDING
 
     public void print() {
-        System.out.println("Name  = " + (gender == Gender.Female ? "Ms." : "Mr.") + name);
-        System.out.println("Email = " + email);
-        System.out.println("Phone = " + phone);
-        System.out.println("----------------------------------");
+        System.out.println("Name    : " + (gender == Gender.Female ? "Ms." : "Mr.") + name);
+        System.out.println("Email   : " + email);
+        System.out.println("Phone   : " + phone);
     }
 
     @Override

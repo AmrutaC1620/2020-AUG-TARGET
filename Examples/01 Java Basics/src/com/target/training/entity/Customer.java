@@ -7,6 +7,12 @@ public class Customer extends Person {
     public Customer() {
     }
 
+    public Customer(int id, String name, String email, String phone, CustomerType customerType) {
+        super(name, email, phone);
+        this.id = id;
+        this.customerType = customerType;
+    }
+
     public int getId() {
         return id;
     }
@@ -21,6 +27,14 @@ public class Customer extends Person {
 
     public void setCustomerType(CustomerType customerType) {
         this.customerType = customerType;
+    }
+
+    @Override
+    public void print() {
+        System.out.println("ID      : " + id);
+        super.print();
+        System.out.println("Type    : " + customerType);
+        System.out.println("---------------------------------");
     }
 
     @Override
