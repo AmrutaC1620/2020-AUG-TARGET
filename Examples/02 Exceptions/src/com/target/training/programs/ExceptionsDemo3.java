@@ -1,9 +1,8 @@
 package com.target.training.programs;
 
-import java.io.FileReader;
 import java.util.Arrays;
 
-public class Main {
+public class ExceptionsDemo3 {
     public static void main(String[] args) {
         System.out.println("args = " + Arrays.toString(args));
 
@@ -18,10 +17,13 @@ public class Main {
             int rem = num % den;
 
             System.out.printf("%d DIV %d = %d and %d MOD %d = %d\n", num, den, quot, num, den, rem);
+        } catch (ArrayIndexOutOfBoundsException | ArithmeticException e) {
+            System.out.println("Please supply two inputs and the second one shouldn't be zero!");
+        } catch (NumberFormatException e) {
+            System.out.println("Only integers are allowed!");
         } catch (Exception e) {
-            System.out.println("OOPS. There was an exception!");
-            System.out.println("Exception of type: " + e.getClass());
-            System.out.println("Message: " + e.getMessage());
+            // default handler for all exception types
+            System.out.println("Something went wrong!");
         }
 
         System.out.println("End of main()");
