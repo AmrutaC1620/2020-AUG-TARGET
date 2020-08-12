@@ -1,31 +1,77 @@
 package com.target.training.programs;
 
-import com.target.training.entity.Customer;
-import com.target.training.entity.CustomerType;
-import com.target.training.entity.Person;
-import com.target.training.entity.Student;
+class Animal {
+    public void talk() {
+        System.out.println("Animal talking...");
+    }
 
-import java.util.Date;
-
-public class PolymorphismDemo {
-
-    public static void main(String[] args) {
-
-        Person p1;
-        p1 = new Student(23, "Harish", "harish@xmpl.com", null, 4.4); // instanceof Student, Person, Object
-
-        p1.print(); // prints the details of the student
-        // can I print the GPA of the student here using p1?
-        double gpa = ((Student) p1).getGpa();
-        System.out.println("gpa = " + gpa);
-
-        p1 = new Customer(987, "John", "john@xmpl.com", "9383741234", CustomerType.GOLD);
-        // instanceof Customer, Person, Object
-
-        p1.print(); // prints the details of the customer
-        // can I print the type of customer using p1 here?
-
-        // gpa = ((Student) p1).getGpa(); // runtime error (Exception)
-        // System.out.println("gpa = " + gpa);
+    public void eat() {
+        System.out.println("Animal eating...");
     }
 }
+
+class Cat extends Animal {
+    public void furr() {
+        System.out.println("Cat furring...");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Cat eating...");
+    }
+
+    @Override
+    public void talk() {
+        System.out.println("Cat says meow...");
+    }
+}
+
+class Dog extends Animal {
+    public void playWithHuman() {
+        System.out.println("Dog playing with a human...");
+    }
+
+    @Override
+    public void talk() {
+        System.out.println("Dog is barking...");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Dog eating...");
+    }
+}
+
+public class PolymorphismDemo {
+    static void printAnimalInfo(Animal a) {
+        System.out.println("Type of animal got is: " + a.getClass().getName());
+        a.eat(); // gives different output based on the object it refers to
+        a.talk();
+
+        if(a instanceof Cat) {
+            Cat c = (Cat) a;
+            c.furr();
+        }
+        else if(a instanceof Dog) {
+            ((Dog)a).playWithHuman();
+        }
+
+        System.out.println("-------------------------------");
+    }
+
+    public static void main(String[] args) {
+        Animal a = new Animal();
+        Cat c = new Cat(); // instance of Cat/Animal/Object
+        Dog d = new Dog();
+
+        printAnimalInfo(a);
+        printAnimalInfo(c);
+        printAnimalInfo(d);
+    }
+}
+
+// Book ->> Notebook, TextBook, Novel, ComicBook, <<-- hard copy books
+//          Kindle, MobilePhone, Laptop,
+
+// read() --> File, remote Browser, network socket, database
+// close() --> File, Socket, Database, ...
