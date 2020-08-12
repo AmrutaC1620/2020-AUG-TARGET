@@ -291,3 +291,23 @@ Person[] people = {
 
 Print the details of all `Person` objects (using the `toString()`).
 
+---
+### Assignment 14
+
+Create the classes `Shape`, `Circle`, `Rectangle`, and `Square` as shown in the *UML* diagram below:
+
+
+<img src="./images/ExerciseOOP_ShapeAndSubclasses.png">
+
+
+The `toString` function of the above classes should return text as given below:
+
+Classname|Sample return value from toString()
+---|---
+Shape|A Shape with color of xxx and filled/Not filled
+Circle|A Circle with radius=xxx, which is a subclass of yyy (where yyy is the output of the toString() method from the superclass)
+Rectangle|A Rectangle with width=xxx and length=zzz, which is a subclass of yyy (where yyy is the output of the toString() method from the superclass)
+Square|A Square with side=xxx, which is a subclass of yyy (where yyy is the output of the toString() method from the superclass)
+
+In the `main()` method of a Program class, create an array of 10 `Shape` references containing a mixture of `Circle`, `Rectangle` and `Square` objects of different dimensions. Using a loop, print the `perimeter` and `area` for all of them.
+
