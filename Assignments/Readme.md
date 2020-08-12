@@ -269,3 +269,25 @@ Print the area of the circular region of each cylinder along with the volume of 
 
 ---
 ### Assignment 13
+
+Create the classes `Person`, `Student`, and `Staff` as shown in the *UML* diagram below:
+
+<img src="./images/ExerciseOOP_PersonAndSubclasses.png">
+
+
+
+In the `main()` function of a Program class, create an array of `Person` references with the initialization shown below:
+
+````java
+Person[] people = {
+	new Student("Shyam", "Bangalore, Karnataka", "Java fundamentals", 2010, 4500.0),
+	new Staff("Anand", "Bangalore, Karnataka", "Delhi Public school", 35000.0), 
+	new Staff("Umesh", "Bangalore, Karnataka", "National Public school", 42000.0), 
+	new Student("Suresh", "Hassan, Karnataka", "Java fundamentals", 2012, 4750.0),
+	new Student("Kiran", "Vasco, Goa", "Reactjs", 2017, 12500.0)
+};
+
+````
+
+Print the details of all `Person` objects (using the `toString()`).
+
