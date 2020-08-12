@@ -244,3 +244,28 @@ inWords(101);
 
 
 Call the function in main, multiple times by supplying multiple values and verify the same.
+
+---
+### Assignment 12
+
+Create classes `Circle` and `Cylinder` as shown in the *UML* diagram below:
+
+<img src="http://www.ntu.edu.sg/home/ehchua/programming/java/images/ExerciseOOP_CircleCylinder.png" alt="Circle and Cylinder">
+
+
+In the `main()` function of a Program class, create an array of `Circle` references with the initialization shown below:
+
+````java
+Circle[] circles = {
+	new Cylinder(12.34),
+	new Cylinder(12.34, 10.0),
+	new Cylinder(12.34, 10.0, "blue")
+};
+
+````
+
+Print the area of the circular region of each cylinder along with the volume of the same.
+
+
+---
+### Assignment 13
