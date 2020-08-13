@@ -1,6 +1,5 @@
 package com.target.training.programs;
 
-import com.target.training.entity.Circle;
 import com.target.training.entity.Cone;
 import com.target.training.entity.Shape;
 import com.target.training.entity.Triangle;
@@ -18,10 +17,10 @@ public class InterfacesDemo {
         shape = new Triangle(1.2, 3.4);
         shape.printArea();
 
-        shape = new Circle(12.34);
+//        shape = new Circle(12.34);
         shape.printArea();
 
-        shape = new Cone(12.34, 10);
+//        shape = new Cone(12.34, 10);
         shape.printArea();
     }
 }

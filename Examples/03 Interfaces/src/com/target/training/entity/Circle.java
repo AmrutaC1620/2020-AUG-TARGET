@@ -1,7 +1,5 @@
 package com.target.training.entity;
 
-import java.io.Serializable;
-
 public class Circle implements Shape {
 
     // by implementing the interface Shape, this class inherits all the members of the Shape interface
