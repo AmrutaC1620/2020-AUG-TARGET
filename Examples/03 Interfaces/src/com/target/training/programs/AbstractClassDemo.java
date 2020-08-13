@@ -1,6 +1,6 @@
 package com.target.training.programs;
 
-// Disclaimer: Do not create more than one class in a single Java Source code
+// Note: Do not create more than one class in a single Java Source code
 
 // 1. abstract class cannot be instantiated (can't create objects)
 abstract class Shape {
