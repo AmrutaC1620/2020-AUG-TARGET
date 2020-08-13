@@ -14,7 +14,7 @@ public class PersonSetDemo {
         System.out.println("hashCode of p is: " + p.hashCode());
 
         people.add(p);
-        p = new Person("Vinod", 47, 5.8);
+        p = new Person("Vinod", 46, 5.8);
         System.out.println("hashCode of p is: " + p.hashCode());
 
         people.add(p);

@@ -1,5 +1,7 @@
 package com.target.training.entity;
 
+import java.util.Objects;
+
 public class Person {
     private String name;
     private int age;
