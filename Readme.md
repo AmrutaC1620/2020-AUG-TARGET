@@ -1,6 +1,6 @@
 # Bootcamp training
 
-Client: Bajaj Finserve<br>
+Client: Target<br>
 Duration: 15 days, 5 hours each day<br>
 From: 10th August 2020<br>
 Mode: Online/ Zoom<br>
