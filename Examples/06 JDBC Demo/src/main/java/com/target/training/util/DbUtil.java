@@ -11,6 +11,7 @@ public final class DbUtil {
     private static String user;
     private static String password;
 
+    // this static block gets executed when DbUtil.class gets loaded into VM
     static {
         ResourceBundle rb = ResourceBundle.getBundle("jdbc-info"); // jdbc-info.properties in classpath
         driverClassName=rb.getString("jdbc.driverClassName");
