@@ -3,6 +3,7 @@ package com.target.training.programs;
 import com.target.training.dao.DaoException;
 import com.target.training.dao.DaoFactory;
 import com.target.training.dao.ProductDao;
+import com.target.training.entity.Product;
 import com.target.training.util.KeyboardUtil;
 
 public class Main {
@@ -17,6 +18,35 @@ public class Main {
             System.out.println("Here is the stack trace: ");
             e.printStackTrace();
         }
+    }
+
+    public void displayProductForId(){
+        try {
+            int id = KeyboardUtil.getInt("Enter id for searching: ");
+
+            Product p = dao.getProduct(id);
+            line();
+            System.out.println("Product details for id: " + id);
+            System.out.println("Name         : " + p.getName());
+            System.out.println("Description  : " + p.getDescription());
+            System.out.println("Brand        : " + p.getBrand());
+            System.out.println("Category     : " + p.getCategory());
+            System.out.println("Price        : ₹" + p.getUnitPrice());
+            System.out.println("Discount     : " + p.getDiscount() + "%");
+            line();
+
+        }
+        catch(DaoException e){
+            System.out.println(e.getMessage());
+        }
+        catch (Exception e) {
+            System.out.println("Invalid value for id; expecting an integer, got a string.");
+        }
+
+    }
+
+    private void line() {
+        System.out.println("--------------------------------------------");
     }
 
     public void start() {
@@ -38,7 +68,7 @@ public class Main {
                 else {
                     switch (choice) {
                         case 1:
-                            // call a function to get product and display
+                            displayProductForId();
                             break;
                         case 2:
                             break;
