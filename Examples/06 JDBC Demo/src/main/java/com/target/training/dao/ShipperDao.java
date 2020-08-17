@@ -11,6 +11,8 @@ public interface ShipperDao {
 
     public Shipper getShipperById(int shipperId) throws DaoException;
 
+    public void updateShipper(Shipper shipper) throws DaoException;
+
     // QUERIES
     public List<Shipper> getAll() throws DaoException;
 }

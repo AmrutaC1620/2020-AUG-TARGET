@@ -11,6 +11,41 @@ import java.util.Map;
 
 public class ShipperManager {
 
+    // facade
+    public Shipper getShipper(int id) throws ServiceException {
+        try {
+            return DaoFactory.getShipperDao().getShipperById(id);
+        } catch (DaoException e) {
+            throw new ServiceException(e);
+        }
+    }
+
+    public Map<String, String> updateShipper(Shipper shipper) throws ServiceException {
+        try{
+            Map<String, String> errors = new HashMap<>();
+
+            String companyName = shipper.getCompanyName();
+            if (companyName == null || companyName.trim().length() < 3) {
+                errors.put("companyName", "Company name must have at least 3 letters");
+            }
+            if (companyName != null && companyName.trim().length() > 25) {
+                errors.put("companyName", "Company name cannot be lengthier than 25 letters");
+            }
+
+            // add more validations for phone
+
+            if(errors.size()>0) {
+                return errors;
+            }
+
+            ShipperDao dao = DaoFactory.getShipperDao();
+            dao.updateShipper(shipper);
+            return null;
+        }
+        catch (Exception ex) {
+            throw new ServiceException(ex);
+        }
+    }
     public Map<String, String> addNewShipper(Shipper shipper) throws ServiceException {
         Map<String, String> errors = new HashMap<>();
         try {
