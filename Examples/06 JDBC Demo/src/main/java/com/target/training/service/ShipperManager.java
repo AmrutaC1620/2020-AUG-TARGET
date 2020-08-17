@@ -11,30 +11,30 @@ import java.util.Map;
 
 public class ShipperManager {
 
-    public Map<String, String> addNewShipper(Shipper shipper)  throws ServiceException{
+    public Map<String, String> addNewShipper(Shipper shipper) throws ServiceException {
         Map<String, String> errors = new HashMap<>();
         try {
             // check for valid inputs id, company-name, phone
-            if(shipper.getShipperId()<=0) {
+            if (shipper.getShipperId() <= 0) {
                 errors.put("shipperId", "Invalid shipper id; must be >= 1");
             }
 
             String companyName = shipper.getCompanyName();
-            if(companyName==null || companyName.trim().length()<3) {
+            if (companyName == null || companyName.trim().length() < 3) {
                 errors.put("companyName", "Company name must have at least 3 letters");
             }
-            if(companyName!=null && companyName.trim().length()>25) {
+            if (companyName != null && companyName.trim().length() > 25) {
                 errors.put("companyName", "Company name cannot be lengthier than 25 letters");
             }
 
             // check if id already present in the table
             ShipperDao dao = DaoFactory.getShipperDao();
             Shipper s1 = dao.getShipperById(shipper.getShipperId());
-            if(s1!=null) {
+            if (s1 != null) {
                 errors.put("shipperId", "There's a shipper with this id in our database");
             }
 
-            if(errors.size()>0) {
+            if (errors.size() > 0) {
                 return errors;
             }
 
