@@ -6,6 +6,7 @@ import com.target.training.util.KeyboardUtil;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class UpdatePersonData {
 
@@ -22,19 +23,8 @@ public class UpdatePersonData {
             stmt.setInt(1, id);
             try (ResultSet rs = stmt.executeQuery()) {
                 if(rs.next()) {
-                    String name = rs.getString("name");
-                    String input = KeyboardUtil.getString("Enter name: (" + name + ") ");
-                    input = input.trim();
-                    if(input.length()>0) {
-                        name = input;
-                    }
-
-                    String city = rs.getString("city");
-                    input = KeyboardUtil.getString("Enter city: (" + city + ") ");
-                    input = input.trim();
-                    if(input.length()>0) {
-                        city = input;
-                    }
+                    String name = getString(rs, "name");
+                    String city = getString(rs,"city");
 
                     sql = "update people set name=?, city=? where id=?";
                     try (PreparedStatement ps = conn.prepareStatement(sql)) {
@@ -55,5 +45,15 @@ public class UpdatePersonData {
             ex.printStackTrace();
         }
 
+    }
+
+    private static String getString(ResultSet rs, String field) throws SQLException {
+        String name = rs.getString(field);
+        String input = KeyboardUtil.getString("Enter name: (" + name + ") ");
+        input = input.trim();
+        if(input.length()>0) {
+            name = input;
+        }
+        return name;
     }
 }
