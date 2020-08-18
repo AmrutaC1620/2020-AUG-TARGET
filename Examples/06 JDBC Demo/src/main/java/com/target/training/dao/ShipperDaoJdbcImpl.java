@@ -20,7 +20,6 @@ public class ShipperDaoJdbcImpl implements ShipperDao {
                 Connection conn = DbUtil.createConnection();
                 PreparedStatement stmt = conn.prepareStatement(sql);
         ) {
-
             stmt.setInt(1, shipper.getShipperId());
             stmt.setString(2, shipper.getCompanyName());
             stmt.setString(3, shipper.getPhone());
@@ -64,6 +63,21 @@ public class ShipperDaoJdbcImpl implements ShipperDao {
             stmt.setString(1, shipper.getCompanyName());
             stmt.setString(2, shipper.getPhone());
             stmt.setInt(3, shipper.getShipperId());
+            stmt.execute();
+        } catch (Exception ex) {
+            throw new DaoException(ex);
+        }
+    }
+
+    @Override
+    public void deleteShipperById(int shipperId) throws DaoException {
+        String sql = "delete from shippers where shipper_id=?";
+
+        try (
+                Connection conn = DbUtil.createConnection();
+                PreparedStatement stmt = conn.prepareStatement(sql);
+        ) {
+            stmt.setInt(1, shipperId);
             stmt.execute();
         } catch (Exception ex) {
             throw new DaoException(ex);

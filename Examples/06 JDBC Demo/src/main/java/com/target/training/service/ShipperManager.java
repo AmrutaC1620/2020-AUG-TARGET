@@ -91,4 +91,30 @@ public class ShipperManager {
             throw new ServiceException(e); // exception funnelling
         }
     }
+
+    public Map<String, String> deleteShipper(int id) throws ServiceException{
+        try {
+            Map<String, String> errors = new HashMap<>();
+
+            if(id<=0) {
+                errors.put("id", "ID must be > 0");
+            }
+
+            ShipperDao dao = DaoFactory.getShipperDao();
+            Shipper shipper = dao.getShipperById(id);
+            if(shipper==null) {
+                errors.put("id", "No shipper data found for id " + id);
+            }
+
+            if (errors.size() > 0) {
+                return errors;
+            }
+
+            dao.deleteShipperById(id);
+
+            return null;
+        } catch (DaoException e) {
+            throw new ServiceException(e);
+        }
+    }
 }

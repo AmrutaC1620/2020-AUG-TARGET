@@ -32,6 +32,7 @@ public class App {
             System.out.println("1. Display all shippers");
             System.out.println("2. Add a new shipper record");
             System.out.println("3. Modify name/phone of a shipper");
+            System.out.println("4. Remove a shipper record");
 
             try {
                 int choice = KeyboardUtil.getInt("Enter your choice: ");
@@ -47,14 +48,42 @@ public class App {
                     case 3:
                         modifyShipperData();
                         break;
+                    case 4:
+                        deleteShipperRecord();
+                        break;
                     default:
                         System.out.println("Invalid choice. Try again!");
                 }
             } catch (Exception e) {
                 System.out.println("Invalid choice. Try again!");
             }
+            System.out.println();
         }
         System.out.println("Thank you, have a nice day!");
+    }
+
+    private void deleteShipperRecord() {
+        try {
+            int id = KeyboardUtil.getInt("Enter id of the shipper to remove: ");
+            ShipperManager manager = new ShipperManager();
+
+            Shipper shipper = manager.getShipper(id);
+            if(shipper==null) {
+                System.out.println("No shipper record found for id " + id);
+                return;
+            }
+
+            System.out.println("Company name: " + shipper.getCompanyName());
+            System.out.println("Phone number: " + shipper.getPhone());
+            String choice = KeyboardUtil.getString("Are you sure you wish to remove this record? yes/no (no): ");
+            if(choice.equalsIgnoreCase("yes")) {
+                Map<String, String> errors = manager.deleteShipper(id);
+                System.out.println("Data deleted successfully!");
+            }
+
+        } catch (Exception e) {
+            System.out.println("Something went wrong. Did you enter the id correctly?");
+        }
     }
 
     private void modifyShipperData() {

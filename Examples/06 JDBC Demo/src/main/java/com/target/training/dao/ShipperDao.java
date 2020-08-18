@@ -13,6 +13,11 @@ public interface ShipperDao {
 
     public void updateShipper(Shipper shipper) throws DaoException;
 
+    public void deleteShipperById(int shipperId) throws DaoException;
+
     // QUERIES
+
     public List<Shipper> getAll() throws DaoException;
+
+
 }
