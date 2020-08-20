@@ -11,11 +11,11 @@ import java.util.List;
 public class SynchronizationDemo {
 
     @SneakyThrows
-    static  void splitWords(List<String> list, String str) {
+    static synchronized void splitWords(List<String> list, String str) {
         String[] words = str.split(" ");
         log.debug("str is '{}'", str);
-//        synchronized (list) { // do not allow multiple threads to access this variable
-            for(String w: words) {
+//        synchronized (list) {
+            for (String w : words) {
                 list.add(w);
                 Thread.sleep(1);
             }
@@ -24,23 +24,19 @@ public class SynchronizationDemo {
 
     @SneakyThrows
     public static void main(String[] args) {
-        // resource shared by multiple threads
         List<String> words = new ArrayList<>();
 
         String sentence1 = "My name is Vinod and I live in Bangalore Karnataka India";
         String sentence2 = "Quick brown fox jumps over the lazy dog";
 
-        log.debug("words are {}", words);
-        Thread t1 = new Thread(()->splitWords(words, sentence1));
-        t1.setPriority(Thread.MIN_PRIORITY);
-
-
-        Thread t2 = new Thread(()->splitWords(words, sentence2));
-        t2.setPriority(Thread.MAX_PRIORITY);
+        Thread t1 = new Thread(() -> splitWords(words, sentence1));
+        Thread t2 = new Thread(() -> splitWords(words, sentence2));
 
         t1.start();
         t2.start();
+        // at this time, there are 3 threads that are using the List called 'words' -> main, Thread-0, Thread-1
 
+        // wait for all threads to finish their jobs and then continue
         t1.join();
         t2.join();
         log.debug("words are {}", words);

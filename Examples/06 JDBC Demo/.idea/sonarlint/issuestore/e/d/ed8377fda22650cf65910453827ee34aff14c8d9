@@ -1,0 +1,40 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(í§¾ó
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+V
+java:S1119";Refactor the code to remove this label and the need for it.(‚ú°ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ïÚâÀşÿÿÿÿ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(ı³Ûä
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(¤ß€Úÿÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(´îñ¯şÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(Ø™·Şùÿÿÿÿ
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(ºßú±
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(ºßú±
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(¹Ó®Ó
+P
+java:S1854P":Remove this useless assignment to local variable "errors".(Æ¾­Ô
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(×¤¹°øÿÿÿÿ
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(ì¸øÖûÿÿÿÿ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(µß“Åıÿÿÿÿ
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(¿¢Ú¹ûÿÿÿÿ
+S	java:S106U"9Replace this use of System.out or System.err by a logger.(—‡µÂüÿÿÿÿ
+S	java:S106a"9Replace this use of System.out or System.err by a logger.(›ôáÿÿÿÿÿ
+S	java:S106q"9Replace this use of System.out or System.err by a logger.(–ë—ÿÿÿÿÿ
+N	java:S106s"9Replace this use of System.out or System.err by a logger.(ÁÉûÈ
+S	java:S106v"9Replace this use of System.out or System.err by a logger.( ‰Çÿÿÿÿÿ
+N	java:S106y"9Replace this use of System.out or System.err by a logger.(ÊƒÙĞ
+O	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(˜ÊÁï
+T	java:S106Š"9Replace this use of System.out or System.err by a logger.(í‚¾ûÿÿÿÿ
+O	java:S106Œ"9Replace this use of System.out or System.err by a logger.(ÁÉûÈ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Íõ£Åüÿÿÿÿ
+m
+java:S3457š"Q%n should be used in place of \n to produce the platform-specific line separator.(ü£éıÿÿÿÿ
+T	java:S106š"9Replace this use of System.out or System.err by a logger.(ü£éıÿÿÿÿ
+h
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(«Ô•È
+O	java:S106"9Replace this use of System.out or System.err by a logger.(«Ô•È
+O	java:S106 "9Replace this use of System.out or System.err by a logger.(ÊƒÙĞ
+T	java:S106¡"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+A
+java:S1481P"+Remove this unused "errors" local variable.(Æ¾­Ô

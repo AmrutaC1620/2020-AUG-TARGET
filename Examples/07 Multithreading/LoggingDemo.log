@@ -294,3 +294,226 @@
 19 Aug 2020 13:07:33,168 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 38
 19 Aug 2020 13:07:33,424 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 39
 19 Aug 2020 13:07:33,679 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 40
+19 Aug 2020 16:02:40,879 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 1
+19 Aug 2020 16:02:40,879 [main           ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in main() for loop is 1
+19 Aug 2020 16:02:41,137 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 2
+19 Aug 2020 16:02:41,393 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 3
+19 Aug 2020 16:02:41,648 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 4
+19 Aug 2020 16:02:41,886 [main           ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in main() for loop is 2
+19 Aug 2020 16:02:41,902 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 5
+19 Aug 2020 16:02:42,153 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 6
+19 Aug 2020 16:02:42,408 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 7
+19 Aug 2020 16:02:42,663 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 8
+19 Aug 2020 16:02:42,893 [main           ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in main() for loop is 3
+19 Aug 2020 16:02:42,915 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 9
+19 Aug 2020 16:02:43,167 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 10
+19 Aug 2020 16:02:43,428 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 11
+19 Aug 2020 16:02:43,680 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 12
+19 Aug 2020 16:02:43,899 [main           ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in main() for loop is 4
+19 Aug 2020 16:02:43,931 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 13
+19 Aug 2020 16:02:44,182 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 14
+19 Aug 2020 16:02:44,437 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 15
+19 Aug 2020 16:02:44,688 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 16
+19 Aug 2020 16:02:44,903 [main           ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in main() for loop is 5
+19 Aug 2020 16:02:44,940 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 17
+19 Aug 2020 16:02:45,194 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 18
+19 Aug 2020 16:02:45,449 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 19
+19 Aug 2020 16:02:45,702 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 20
+19 Aug 2020 16:02:45,909 [main           ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in main() for loop is 6
+19 Aug 2020 16:02:45,957 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 21
+19 Aug 2020 16:02:46,213 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 22
+19 Aug 2020 16:02:46,469 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 23
+19 Aug 2020 16:02:46,723 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 24
+19 Aug 2020 16:02:46,911 [main           ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in main() for loop is 7
+19 Aug 2020 16:02:46,978 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 25
+19 Aug 2020 16:02:47,233 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 26
+19 Aug 2020 16:02:47,488 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 27
+19 Aug 2020 16:02:47,740 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 28
+19 Aug 2020 16:02:47,917 [main           ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in main() for loop is 8
+19 Aug 2020 16:02:47,994 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 29
+19 Aug 2020 16:02:48,249 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 30
+19 Aug 2020 16:02:48,502 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 31
+19 Aug 2020 16:02:48,758 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 32
+19 Aug 2020 16:02:48,919 [main           ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in main() for loop is 9
+19 Aug 2020 16:02:49,012 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 33
+19 Aug 2020 16:02:49,268 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 34
+19 Aug 2020 16:02:49,520 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 35
+19 Aug 2020 16:02:49,771 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 36
+19 Aug 2020 16:02:49,921 [main           ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in main() for loop is 10
+19 Aug 2020 16:02:50,025 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 37
+19 Aug 2020 16:02:50,278 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 38
+19 Aug 2020 16:02:50,530 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 39
+19 Aug 2020 16:02:50,784 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 40
+19 Aug 2020 16:02:51,039 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 41
+19 Aug 2020 16:02:51,294 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 42
+19 Aug 2020 16:02:51,548 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 43
+19 Aug 2020 16:02:51,803 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 44
+19 Aug 2020 16:02:52,059 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 45
+19 Aug 2020 16:02:52,312 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 46
+19 Aug 2020 16:02:52,567 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 47
+19 Aug 2020 16:02:52,819 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 48
+19 Aug 2020 16:02:53,074 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 49
+19 Aug 2020 16:02:53,328 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 50
+19 Aug 2020 16:02:53,579 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 51
+19 Aug 2020 16:02:53,831 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 52
+19 Aug 2020 16:02:54,087 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 53
+19 Aug 2020 16:02:54,339 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 54
+19 Aug 2020 16:02:54,591 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 55
+19 Aug 2020 16:02:54,844 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 56
+19 Aug 2020 16:02:55,099 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 57
+19 Aug 2020 16:02:55,352 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 58
+19 Aug 2020 16:02:55,607 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 59
+19 Aug 2020 16:02:55,862 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 60
+19 Aug 2020 16:02:56,117 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 61
+19 Aug 2020 16:02:56,370 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 62
+19 Aug 2020 16:02:56,626 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 63
+19 Aug 2020 16:02:56,879 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 64
+19 Aug 2020 16:02:57,130 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 65
+19 Aug 2020 16:02:57,382 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 66
+19 Aug 2020 16:02:57,637 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 67
+19 Aug 2020 16:02:57,893 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 68
+19 Aug 2020 16:02:58,148 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 69
+19 Aug 2020 16:02:58,403 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 70
+19 Aug 2020 16:02:58,658 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 71
+19 Aug 2020 16:02:58,912 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 72
+19 Aug 2020 16:02:59,167 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 73
+19 Aug 2020 16:02:59,421 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 74
+19 Aug 2020 16:02:59,676 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 75
+19 Aug 2020 16:02:59,930 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 76
+19 Aug 2020 16:03:00,183 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 77
+19 Aug 2020 16:03:00,437 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 78
+19 Aug 2020 16:03:00,689 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 79
+19 Aug 2020 16:03:00,945 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 80
+19 Aug 2020 16:03:01,200 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 81
+19 Aug 2020 16:03:01,453 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 82
+19 Aug 2020 16:03:01,706 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 83
+19 Aug 2020 16:03:01,959 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 84
+19 Aug 2020 16:03:02,213 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 85
+19 Aug 2020 16:03:02,468 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 86
+19 Aug 2020 16:03:02,723 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 87
+19 Aug 2020 16:03:02,978 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 88
+19 Aug 2020 16:03:03,232 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 89
+19 Aug 2020 16:03:03,488 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 90
+19 Aug 2020 16:03:03,743 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 91
+19 Aug 2020 16:03:03,998 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 92
+19 Aug 2020 16:03:04,253 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 93
+19 Aug 2020 16:03:04,508 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 94
+19 Aug 2020 16:03:04,763 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 95
+19 Aug 2020 16:03:05,016 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 96
+19 Aug 2020 16:03:05,269 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 97
+19 Aug 2020 16:03:05,521 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 98
+19 Aug 2020 16:03:05,776 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 99
+19 Aug 2020 16:03:06,029 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 100
+19 Aug 2020 16:07:34,083 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 1
+19 Aug 2020 16:07:34,083 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 1
+19 Aug 2020 16:07:34,189 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 3
+19 Aug 2020 16:07:34,292 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 5
+19 Aug 2020 16:07:34,343 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 2
+19 Aug 2020 16:07:34,392 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 7
+19 Aug 2020 16:07:34,497 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 9
+19 Aug 2020 16:07:34,595 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 3
+19 Aug 2020 16:07:34,605 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 11
+19 Aug 2020 16:07:34,710 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 13
+19 Aug 2020 16:07:34,811 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 15
+19 Aug 2020 16:07:34,848 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 4
+19 Aug 2020 16:07:34,915 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 17
+19 Aug 2020 16:07:35,020 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 19
+19 Aug 2020 16:07:35,100 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 5
+19 Aug 2020 16:07:35,129 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 21
+19 Aug 2020 16:07:35,235 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 23
+19 Aug 2020 16:07:35,336 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 25
+19 Aug 2020 16:07:35,351 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 6
+19 Aug 2020 16:07:35,442 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 27
+19 Aug 2020 16:07:35,549 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 29
+19 Aug 2020 16:07:35,605 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 7
+19 Aug 2020 16:07:35,655 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 31
+19 Aug 2020 16:07:35,760 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 33
+19 Aug 2020 16:07:35,860 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 8
+19 Aug 2020 16:07:35,866 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 35
+19 Aug 2020 16:07:35,971 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 37
+19 Aug 2020 16:07:36,073 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 39
+19 Aug 2020 16:07:36,115 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 9
+19 Aug 2020 16:07:36,176 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 41
+19 Aug 2020 16:07:36,278 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 43
+19 Aug 2020 16:07:36,368 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 10
+19 Aug 2020 16:07:36,383 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 45
+19 Aug 2020 16:07:36,487 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 47
+19 Aug 2020 16:07:36,589 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 49
+19 Aug 2020 16:07:36,620 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 11
+19 Aug 2020 16:07:36,695 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 51
+19 Aug 2020 16:07:36,803 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 53
+19 Aug 2020 16:07:36,871 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 12
+19 Aug 2020 16:07:36,910 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 55
+19 Aug 2020 16:07:37,010 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 57
+19 Aug 2020 16:07:37,112 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 59
+19 Aug 2020 16:07:37,125 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 13
+19 Aug 2020 16:07:37,217 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 61
+19 Aug 2020 16:07:37,321 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 63
+19 Aug 2020 16:07:37,380 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 14
+19 Aug 2020 16:07:37,426 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 65
+19 Aug 2020 16:07:37,530 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 67
+19 Aug 2020 16:07:37,636 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 15
+19 Aug 2020 16:07:37,637 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 69
+19 Aug 2020 16:07:37,740 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 71
+19 Aug 2020 16:07:37,845 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 73
+19 Aug 2020 16:07:37,890 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 16
+19 Aug 2020 16:07:37,949 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 75
+19 Aug 2020 16:07:38,054 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 77
+19 Aug 2020 16:07:38,145 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 17
+19 Aug 2020 16:07:38,158 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 79
+19 Aug 2020 16:07:38,261 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 81
+19 Aug 2020 16:07:38,366 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 83
+19 Aug 2020 16:07:38,399 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 18
+19 Aug 2020 16:07:38,470 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 85
+19 Aug 2020 16:07:38,575 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 87
+19 Aug 2020 16:07:38,654 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 19
+19 Aug 2020 16:07:38,679 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 89
+19 Aug 2020 16:07:38,784 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 91
+19 Aug 2020 16:07:38,888 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 93
+19 Aug 2020 16:07:38,910 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 20
+19 Aug 2020 16:07:38,991 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 95
+19 Aug 2020 16:07:39,095 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 97
+19 Aug 2020 16:07:39,165 [Thread-0       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 21
+19 Aug 2020 16:07:39,202 [Thread-1       ] INFO  com.target.training.programs.DaemonThreadDemo  Value of i in run() while loop is 99
+19 Aug 2020 16:13:57,873 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'My name is Vinod and I live in Bangalore Karnataka India'
+19 Aug 2020 16:13:57,879 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'Quick brown fox jumps over the lazy dog'
+19 Aug 2020 16:13:57,880 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  words are [My, name, is, Vinod, and, I, live, in, Bangalore, Karnataka, India, Quick, brown, fox, jumps, over, the, lazy, dog]
+19 Aug 2020 16:16:39,266 [Thread-1       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'Quick brown fox jumps over the lazy dog'
+19 Aug 2020 16:16:39,267 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  words are []
+19 Aug 2020 16:16:39,267 [Thread-0       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'My name is Vinod and I live in Bangalore Karnataka India'
+19 Aug 2020 16:18:14,683 [Thread-1       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'Quick brown fox jumps over the lazy dog'
+19 Aug 2020 16:18:14,683 [Thread-0       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'My name is Vinod and I live in Bangalore Karnataka India'
+19 Aug 2020 16:18:14,686 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  words are [Quick, brown, fox, jumps, over, the, lazy, dog, My, name, is, Vinod, and, I, live, in, Bangalore, Karnataka, India]
+19 Aug 2020 16:18:58,128 [Thread-1       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'Quick brown fox jumps over the lazy dog'
+19 Aug 2020 16:18:58,128 [Thread-0       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'My name is Vinod and I live in Bangalore Karnataka India'
+19 Aug 2020 16:18:58,145 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  words are [Quick, My, brown, name, fox, Vinod, jumps, and, over, I, the, live, lazy, dog, in, Bangalore, Karnataka, India]
+19 Aug 2020 16:19:15,871 [Thread-0       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'My name is Vinod and I live in Bangalore Karnataka India'
+19 Aug 2020 16:19:15,871 [Thread-1       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'Quick brown fox jumps over the lazy dog'
+19 Aug 2020 16:19:15,887 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  words are [My, Quick, name, brown, is, fox, Vinod, jumps, and, over, I, the, live, lazy, in, dog, Bangalore, Karnataka, India]
+19 Aug 2020 16:19:21,215 [Thread-0       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'My name is Vinod and I live in Bangalore Karnataka India'
+19 Aug 2020 16:19:21,215 [Thread-1       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'Quick brown fox jumps over the lazy dog'
+19 Aug 2020 16:19:21,235 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  words are [My, Quick, name, brown, is, fox, Vinod, jumps, and, over, I, the, live, lazy, in, dog, Bangalore, Karnataka, India]
+19 Aug 2020 16:19:26,353 [Thread-0       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'My name is Vinod and I live in Bangalore Karnataka India'
+19 Aug 2020 16:19:26,353 [Thread-1       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'Quick brown fox jumps over the lazy dog'
+19 Aug 2020 16:19:26,369 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  words are [My, Quick, name, brown, is, fox, Vinod, jumps, and, over, I, the, live, lazy, in, dog, Bangalore, Karnataka, India]
+19 Aug 2020 16:19:32,147 [Thread-0       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'My name is Vinod and I live in Bangalore Karnataka India'
+19 Aug 2020 16:19:32,147 [Thread-1       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'Quick brown fox jumps over the lazy dog'
+19 Aug 2020 16:19:32,166 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  words are [My, Quick, name, brown, is, fox, Vinod, jumps, and, over, I, the, live, lazy, in, dog, Bangalore, Karnataka, India]
+19 Aug 2020 16:19:49,792 [Thread-0       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'My name is Vinod and I live in Bangalore Karnataka India'
+19 Aug 2020 16:19:49,792 [Thread-1       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'Quick brown fox jumps over the lazy dog'
+19 Aug 2020 16:19:49,809 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  words are [My, Quick, name, brown, is, fox, Vinod, jumps, and, over, I, the, live, lazy, in, dog, Bangalore, Karnataka, India]
+19 Aug 2020 16:19:58,775 [Thread-0       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'My name is Vinod and I live in Bangalore Karnataka India'
+19 Aug 2020 16:19:58,776 [Thread-1       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'Quick brown fox jumps over the lazy dog'
+19 Aug 2020 16:19:58,792 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  words are [My, Quick, name, brown, is, fox, Vinod, jumps, and, over, I, the, live, lazy, in, dog, Bangalore, Karnataka, India]
+19 Aug 2020 16:23:47,818 [Thread-1       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'Quick brown fox jumps over the lazy dog'
+19 Aug 2020 16:23:47,818 [Thread-0       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'My name is Vinod and I live in Bangalore Karnataka India'
+19 Aug 2020 16:23:47,845 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  words are [Quick, brown, fox, jumps, over, the, lazy, dog, My, name, is, Vinod, and, I, live, in, Bangalore, Karnataka, India]
+19 Aug 2020 16:24:31,209 [Thread-0       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'My name is Vinod and I live in Bangalore Karnataka India'
+19 Aug 2020 16:24:31,225 [Thread-1       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'Quick brown fox jumps over the lazy dog'
+19 Aug 2020 16:24:31,236 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  words are [My, name, is, Vinod, and, I, live, in, Bangalore, Karnataka, India, Quick, brown, fox, jumps, over, the, lazy, dog]
+19 Aug 2020 16:24:42,920 [Thread-0       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'My name is Vinod and I live in Bangalore Karnataka India'
+19 Aug 2020 16:24:42,936 [Thread-1       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'Quick brown fox jumps over the lazy dog'
+19 Aug 2020 16:24:42,946 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  words are [My, name, is, Vinod, and, I, live, in, Bangalore, Karnataka, India, Quick, brown, fox, jumps, over, the, lazy, dog]
+19 Aug 2020 16:24:52,037 [Thread-0       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'My name is Vinod and I live in Bangalore Karnataka India'
+19 Aug 2020 16:24:52,053 [Thread-1       ] DEBUG com.target.training.programs.SynchronizationDemo  str is 'Quick brown fox jumps over the lazy dog'
+19 Aug 2020 16:24:52,071 [main           ] DEBUG com.target.training.programs.SynchronizationDemo  words are [My, name, is, Vinod, and, I, live, in, Bangalore, Karnataka, India, Quick, brown, fox, jumps, over, the, lazy, dog]

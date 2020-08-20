@@ -44,6 +44,7 @@ public class ReadFromDatabaseTables {
         Connection conn = DriverManager.getConnection(url, user, password);
 
         // Thread 1 - read from CUSTOMERS table
+        // Thread t1 = new Thread(new DbReader(conn, "CUSTOMERS"));
         Thread t1 = new Thread(() -> new DbReader(conn, "CUSTOMERS").printRecords());
 
         // Thread 2 - read from SUPPLIERS table

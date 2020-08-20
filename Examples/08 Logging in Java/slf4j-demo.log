@@ -1,0 +1,10 @@
+[Wed Aug 19, 2020 03:53:48,376 PM] [Thread-0       ] com.target.training.programs.Slf4jLoggingDemo This is an error message
+[Wed Aug 19, 2020 03:53:48,377 PM] [Thread-0       ] com.target.training.programs.Slf4jLoggingDemo This is a warning message
+[Wed Aug 19, 2020 03:53:48,378 PM] [Thread-0       ] com.target.training.programs.Slf4jLoggingDemo This is a info message
+[Wed Aug 19, 2020 03:53:48,378 PM] [Thread-0       ] com.target.training.programs.Slf4jLoggingDemo This is a debug message
+[Wed Aug 19, 2020 03:53:48,378 PM] [Thread-0       ] com.target.training.programs.Slf4jLoggingDemo This is a trace message
+[Wed Aug 19, 2020 03:53:48,376 PM] [main           ] com.target.training.programs.Slf4jLoggingDemo This is an error message
+[Wed Aug 19, 2020 03:53:48,379 PM] [main           ] com.target.training.programs.Slf4jLoggingDemo This is a warning message
+[Wed Aug 19, 2020 03:53:48,379 PM] [main           ] com.target.training.programs.Slf4jLoggingDemo This is a info message
+[Wed Aug 19, 2020 03:53:48,380 PM] [main           ] com.target.training.programs.Slf4jLoggingDemo This is a debug message
+[Wed Aug 19, 2020 03:53:48,380 PM] [main           ] com.target.training.programs.Slf4jLoggingDemo This is a trace message

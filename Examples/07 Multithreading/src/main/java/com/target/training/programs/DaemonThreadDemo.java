@@ -22,10 +22,15 @@ public class DaemonThreadDemo {
         t1.setDaemon(true); // automatically killed when all non-daemon threads die
         t1.start();
 
-        for(int i=1; i<=10; i++) {
-            log.info("Value of i in main() for loop is {}", i);
-            sleep(1000);
-        }
 
+
+        new Thread(()->{
+            for(int i=1; i<=100; i++) {
+                log.info("Value of i in run() while loop is {}", i++);
+                sleep(100);
+            }
+        }).start();
+
+        // two non-daemon threads --> main, Thread-1
     }
 }
