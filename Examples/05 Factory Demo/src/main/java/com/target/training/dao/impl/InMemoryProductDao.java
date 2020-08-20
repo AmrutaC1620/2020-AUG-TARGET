@@ -11,7 +11,7 @@ import java.util.List;
 // NOTE: do not write any keyboard read statements here.
 public class InMemoryProductDao implements ProductDao {
 
-    private List<Product> products = new ArrayList<Product>();
+    private List<Product> products = new ArrayList<>();
     // please add few hard-coded products in the constructor for ease of work
 
     public InMemoryProductDao() {
@@ -71,27 +71,27 @@ public class InMemoryProductDao implements ProductDao {
 
     @Override
     public void deleteProduct(int id) throws DaoException {
-
+       throw new DaoException("Method not implemented yet!");
     }
 
     @Override
     public List<Product> getAllProducts() throws DaoException {
-        return null;
+        return new ArrayList<>();
     }
 
     @Override
     public List<Product> getProductsByBrand(String brand) throws DaoException {
-        return null;
+        return new ArrayList<>();
     }
 
     @Override
     public List<Product> getProductsByCategory(String category) throws DaoException {
-        return null;
+        return new ArrayList<>();
     }
 
     @Override
     public List<Product> getProductsByPriceRange(double min, double max) throws DaoException {
-        return null;
+        return new ArrayList<>();
     }
 
     @Override

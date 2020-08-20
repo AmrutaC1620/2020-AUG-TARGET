@@ -78,7 +78,16 @@ public class App {
             String choice = KeyboardUtil.getString("Are you sure you wish to remove this record? yes/no (no): ");
             if(choice.equalsIgnoreCase("yes")) {
                 Map<String, String> errors = manager.deleteShipper(id);
-                System.out.println("Data deleted successfully!");
+                if(errors==null){
+                    System.out.println("Data deleted successfully!");
+                }
+                else {
+                    System.out.println("Following errors were encountered");
+                    for(String value: errors.values()) {
+                        System.out.println(value);
+                    }
+                }
+
             }
 
         } catch (Exception e) {

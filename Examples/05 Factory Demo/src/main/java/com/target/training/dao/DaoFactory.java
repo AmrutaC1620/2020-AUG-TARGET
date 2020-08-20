@@ -10,13 +10,13 @@ import java.util.ResourceBundle;
 // final class with private constructor ensures that the class cannot be instantiated!!
 public final class DaoFactory {
 
-    private static final String discriminator;
+    private static final String DISCRIMINATOR;
 
     // static blocks are executed only once when the class is loaded into VM
     static {
         // to read values for keys in a .properties file use ResourceBundle
         ResourceBundle rb = ResourceBundle.getBundle("dao"); // assumes extension as .properties
-        discriminator = rb.getString("discriminator.type");
+        DISCRIMINATOR = rb.getString("discriminator.type");
 
         // discriminator = System.getenv("DISCRIMINATOR_TYPE");
     }
@@ -26,7 +26,7 @@ public final class DaoFactory {
 
     public static ProductDao getProductDao() throws DaoException {
 
-        switch (discriminator.toLowerCase()) {
+        switch (DISCRIMINATOR.toLowerCase()) {
             case "jdbc":
                 return new JdbcProductDao();
             case "file":
@@ -36,7 +36,7 @@ public final class DaoFactory {
             case "in-memory":
                 return new InMemoryProductDao();
             default:
-                throw new DaoException("Unknown type '" + discriminator + "' for discriminator");
+                throw new DaoException("Unknown type '" + DISCRIMINATOR + "' for discriminator");
         }
     }
 }

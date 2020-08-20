@@ -3,9 +3,6 @@ package com.target.training.programs;
 import com.target.training.dao.DaoException;
 import com.target.training.dao.DaoFactory;
 import com.target.training.dao.ProductDao;
-import com.target.training.dao.impl.FileProductDao;
-import com.target.training.dao.impl.JdbcProductDao;
-import com.target.training.dao.impl.MybatisProductDao;
 
 public class Application {
 

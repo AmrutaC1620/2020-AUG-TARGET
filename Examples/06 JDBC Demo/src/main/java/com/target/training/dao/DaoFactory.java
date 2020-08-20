@@ -1,7 +1,5 @@
 package com.target.training.dao;
 
-import javax.sql.rowset.JdbcRowSet;
-
 public final class DaoFactory {
 
     private static final String IMPL_TYPE;
@@ -19,8 +17,11 @@ public final class DaoFactory {
             case "jdbc":
                 return new ShipperDaoJdbcImpl();
             // more cases to follow...
+
+            default:
+                throw new DaoException("Invalid type for DAO implementation: " + IMPL_TYPE);
         }
 
-        throw new DaoException("Invalid type for DAO implementation: " + IMPL_TYPE);
+
     }
 }
