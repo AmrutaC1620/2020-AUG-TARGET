@@ -1,0 +1,4 @@
+GET /?s=iron&apikey=aa9e49f HTTP/1.1
+Host: www.omdbapi.com
+Accept: application/xml
+
