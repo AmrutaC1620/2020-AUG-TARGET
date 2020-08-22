@@ -33,4 +33,14 @@ public class ShipperManager {
                 .orElse(null);
     }
 
+    public void addShipper(Shipper shipper) {
+        Shipper s = this.getById(shipper.getShipperId());
+        if(s==null){
+            this.shippers.add(shipper);
+        }
+        else {
+            throw new RuntimeException("Shipper ID already exists!");
+        }
+
+    }
 }
