@@ -1,5 +1,6 @@
-package com.target.training;
+package com.target.training.controllers;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -14,9 +15,14 @@ import java.util.Map;
 // 1. plain text (MIME type: text/plain)
 // 2. json (MIME type: application/json)
 
+@Slf4j
 @RestController
 @RequestMapping("/api")
 public class HelloController {
+
+    public HelloController() {
+        log.info("HelloController instantiated");
+    }
 
     // This function is called as "request handler"
     // DispatcherServlet checks with HandlerMapping object for a client
