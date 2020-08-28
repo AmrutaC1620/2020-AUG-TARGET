@@ -1,30 +1,37 @@
 http://localhost:8080/api/shippers
 
-----------------------------------------
+###
+
 GET /api/shippers HTTP/1.1
 Host: localhost:8080
 Accept: application/json
-----------------------------------------
+###
+
 GET /api/shippers HTTP/1.1
 Host: localhost:8080
 Accept: application/xml
-----------------------------------------
+###
+
 GET /api/shippers/1 HTTP/1.1
 Host: localhost:8080
 Accept: application/xml
-----------------------------------------
+###
+
 GET /api/shippers/2 HTTP/1.1
 Host: localhost:8080
 Accept: application/json
-----------------------------------------
+###
+
 GET /api/shippers/3 HTTP/1.1
 Host: localhost:8080
 Accept: application/xml
-----------------------------------------
+###
+
 GET /api/shippers/53 HTTP/1.1
 Host: localhost:8080
 Accept: application/json
-----------------------------------------
+###
+
 POST /api/shippers HTTP/1.1
 Host: localhost:8080
 Content-Type: application/json
@@ -36,7 +43,8 @@ Accept: application/json
   "phone": "(973) 142-4784"
 }
 
-----------------------------------------
+###
+
 POST /api/shippers HTTP/1.1
 Host: localhost:8080
 Content-Type: application/xml
@@ -49,4 +57,4 @@ Accept: application/xml
   <phone>(503) 555-2312</phone>
 </shipper>
 
-----------------------------------------
+###
