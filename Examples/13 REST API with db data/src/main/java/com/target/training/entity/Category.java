@@ -1,5 +1,6 @@
 package com.target.training.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 
 import javax.persistence.Column;
@@ -17,5 +18,7 @@ public class Category {
     @Column(name = "category_name")
     private String categoryName;
     private String description;
+
+    @JsonIgnore
     private byte[] picture;
 }

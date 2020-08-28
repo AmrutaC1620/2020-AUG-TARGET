@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.target</groupId>
-    <artifactId>products-service</artifactId>
+    <artifactId>customer-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Products RESTful WebService</name>
+    <name>Customers RESTful WebService</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
