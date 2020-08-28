@@ -11,7 +11,7 @@ GET /api/products HTTP/1.1
 Host: localhost:8080
 Accept: application/json
 
-GET /api/products/25 HTTP/1.1
+GET /api/products/78 HTTP/1.1
 Host: localhost:8080
 Accept: application/json
 
@@ -20,7 +20,27 @@ GET /api/customers HTTP/1.1
 Host: localhost:9090
 Accept: application/json
 
-GET /api/customers/alfki HTTP/1.1
+GET /api/customers/ANTON HTTP/1.1
 Host: localhost:9090
 Accept: application/json
 
+POST /api/products HTTP/1.1
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+{
+  "productName": "Test product",
+  "supplier": {
+    "supplierId": 9
+  },
+  "category": {
+    "categoryId": 5
+  },
+  "quantityPerUnit": "24 - 500 g pkgs.",
+  "unitPrice": 21.0,
+  "unitsInStock": 104,
+  "unitsOnOrder": 0,
+  "reorderLevel": 25,
+  "discontinued": false
+}

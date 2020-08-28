@@ -9,6 +9,7 @@ import javax.persistence.*;
 @Table(name = "PRODUCTS")
 public class Product {
     @Id
+    @GeneratedValue(generator = "increment") // SELECT MAX(PRODUCT_ID) +1 FROM PRODUCTS;
     @Column(name = "product_id")
     private Integer productId;
     @Column(name = "product_name")

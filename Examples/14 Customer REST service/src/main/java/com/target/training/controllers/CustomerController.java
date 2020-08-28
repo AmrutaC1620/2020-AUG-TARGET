@@ -17,7 +17,7 @@ public class CustomerController {
 
     @GetMapping(path="/{customerId}")
     public Customer getById(@PathVariable String customerId) {
-        return repo.findById(customerId.toLowerCase()).get();
+        return repo.findById(customerId.toUpperCase()).get();
     }
 
     @GetMapping
