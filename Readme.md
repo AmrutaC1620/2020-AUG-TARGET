@@ -21,6 +21,14 @@ vinod@vinod.co
 +91 973 142 4784
 </pre>
 
+### Steps to run Angular project (Examples/northwind-dashboard)
+
+1. Install `Node.js` (if not done already)
+1. Install angular-cli [ `sudo npm install -g @angluar/cli` ]
+1. Install the npm depdenencies [ `npm install` ]
+1. Run the angular project [ `ng serve -o` ]
+
+
 
 ### Northwind Database 
 
