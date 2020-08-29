@@ -1,0 +1,48 @@
+GET /api/categories/5 HTTP/1.1
+Host: localhost:3000
+Accept: application/json
+
+###
+
+GET /api/categories HTTP/1.1
+Host: localhost:3000
+Accept: application/json
+
+###
+
+GET /api/products HTTP/1.1
+Host: localhost:3100
+Accept: application/json
+
+###
+
+GET /api/products/12 HTTP/1.1
+Host: localhost:3100
+Accept: application/json
+
+###
+
+GET /api/suppliers HTTP/1.1
+Host: localhost:3200
+Accept: application/json
+
+###
+
+GET /api/suppliers/22 HTTP/1.1
+Host: localhost:3200
+Accept: application/json
+
+###
+
+GET /api/orders HTTP/1.1
+Host: localhost:3300
+Accept: application/json
+
+
+###
+
+GET /api/orders/10250 HTTP/1.1
+Host: localhost:3300
+Accept: application/json
+
+###
