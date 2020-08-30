@@ -33,5 +33,3 @@ vinod@vinod.co
 ### Northwind Database 
 
 <img src="Diagrams/NORTHWIND_DB_DIAGRAM.png">
-
-<!-- added using Windows 10 -->
