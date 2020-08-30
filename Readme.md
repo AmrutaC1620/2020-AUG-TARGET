@@ -30,7 +30,8 @@ vinod@vinod.co
 1. Run the angular project [ `ng serve -o` ]
 
 
-
 ### Northwind Database 
 
 <img src="Diagrams/NORTHWIND_DB_DIAGRAM.png">
+
+<!-- added using Windows 10 -->
