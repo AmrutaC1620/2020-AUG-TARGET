@@ -11,6 +11,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.NoSuchElementException;
 
+@CrossOrigin
 @RestController
 @RequestMapping(path = "/api/products", produces = "application/json")
 public class ProductController {

@@ -33,3 +33,8 @@ vinod@vinod.co
 ### Northwind Database 
 
 <img src="Diagrams/NORTHWIND_DB_DIAGRAM.png">
+
+### Team
+
+<img src="Diagrams/target-1.png">
+<img src="Diagrams/target-2.png">
